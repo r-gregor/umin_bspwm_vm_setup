@@ -1,0 +1,85 @@
+sudo apt-get install xserver-xorg-core xserver-xorg-dev xinit
+sudo apt install git vim compton tint2 nitrogen xfce4-terminal lxappearance dmenu rofi
+sudo apt install bspwm sxhkd
+mkdir -p .config/bspwm
+mkdir .config/sxhkd
+cp /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/
+cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/
+mkdir .themes .icons
+cd ~/Downloads/
+tar -xvzf 148170-Adwaita-Dark.tar.gz 
+mv Adwaita-Dark/ ~/.themes/
+lxappearance 
+cd ~/.config/bspwm/
+nano bspwmrc
+cd ../sxhkd/
+nano sxhkdrc 
+sudo apt install firefox
+mkdir -p Pictures/wallpapers01
+mv ~/Downloads/* Pictures/wallpapers01/
+nitrogen
+mount
+cd /media/rgregor/VBox_GAs_6.1.14/
+sudo ./VBoxLinuxAdditions.run 
+nano .xinitrc
+sudo reboot
+sudo apt remove gdm3
+sudo apt autoremove
+sudo reboot
+xrandr
+xrandr -s 1440x900
+nano .config/sxhkd/sxhkdrc 
+rofi -show run
+sudo reboot
+sudo usermod -a -G vboxsf rgregor
+groups
+sudo reboot
+sudo apt install rxvt
+sudo reboot
+nano /mnt/VBox_hared/bspwm_setup_20201106.txt 
+cat /mnt/VBox_hared/bspwm_setup_20201106.txt 
+history >> /mnt/VBox_hared/bspwm_setup_20201106.txt 
+
+======================================================
+sudo apt install ranger
+ranger --copy-config=all
+creating: /home/rgregor/.config/ranger/rifle.conf
+creating: /home/rgregor/.config/ranger/commands.py
+creating: /home/rgregor/.config/ranger/commands_full.py
+creating: /home/rgregor/.config/ranger/rc.conf
+creating: /home/rgregor/.config/ranger/scope.sh
+
+> Please note that configuration files may change as ranger evolves.
+  It's completely up to you to keep them up to date.
+
+> To stop ranger from loading both the default and your custom rc.conf,
+  please set the environment variable RANGER_LOAD_DEFAULT_RC to FALSE.
+
+=====================================================
+nano .config/ranger/rc.conf
+	# Draw borders around columns? (separators, outline, both, or none)
+	set draw_borders true
+
+=====================================================
+sudo apt install lxtask
+sudo apt install fonts-noto-mono fonts-inconsolata
+
+=====================================================
+sudo apt search fonts | grep ^fonts | grep mono
+sudo apt install fonts-monofur fonts-monoid fonts-tlwg-mono
+sudo apt install fonts-ubuntu fonts-ubuntu-console fonts-ubuntu-font-family-console
+sudo fc-cache -f -v
+
+=====================================================
+cd ~/Downloads/
+git clone https://github.com/arcticicestudio/nord-vim.git
+cp ~/downloads/jord.vim ~/.vim/colors/
+git clone https://github.com/zefei/simple-dark.git
+cp ~/downloads/jimple-dark.vim ~/.vim/colors/
+git clone https://github.com/jcherven/jummidark.vim.git
+cp ~/downloads/jummidark.vim/colors/* ~/.vim/colors/
+git clone https://github.com/franbach/miramare.git
+cp ~/Downloads/miramare/colors/miramare.vim ~/.vim/colors/
+
+=====================================================
+

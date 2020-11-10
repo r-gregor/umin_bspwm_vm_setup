@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="lxappearance.desktop" score="1" last-seen="1604689068"/>
+    <application id="firefox.desktop" score="29" last-seen="1604690080"/>
+    <application id="nitrogen.desktop" score="3" last-seen="1604689987"/>
+    <application id="org.gnome.Terminal.desktop" score="142" last-seen="1604690080"/>
+    <application id="xfce4-terminal.desktop" score="1" last-seen="1604689070"/>
+  </context>
+</application-state>

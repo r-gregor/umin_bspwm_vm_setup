@@ -1,0 +1,162 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt search xorg | grep xorg | less
+    4  sudo apt install xserver-xorg-core xserver-xorg-dev xinit
+    5  lsll
+    6  ll
+    7  sudo mount -a
+    8  mount
+    9  mount | grep mnt
+   10  ls /mnt/
+   11  sudo ls /mnt/
+   12  sudo apt install git vim compton tint2 nitrogen xfce4-terminal lyappearance dmenu rofi
+   13  sudo apt install git vim compton tint2 nitrogen xfce4-terminal lxappearance dmenu rofi
+   14  sudo apt install bspwm sxhkd
+   15  sudo reboot
+   16  lxappearance &
+   17  sudo mkdir -p .config/bspwm
+   18  mkdir .config/sxhkd
+   19  ls -l .config/
+   20  sudo chown -R rgregor: .config/bspwm/
+   21  ls -l .config/
+   22  cp /usr/share/doc/bspwm/examples/bspwmrc .config/bspwm/
+   23  cp /usr/share/doc/sxhkd/examples/background_shell/sxhkdrc .config/sxhkd/
+   24  xfce4-terminal &
+   25  ll
+   26  mkdir .themes .icons
+   27  ll
+   28  firefox
+   29  cd ~/Downloads/
+   30  ls
+   31  tar -xvzf 148170-Adwaita-Dark.tar.gz 
+   32  mv Adwaita-Dark/ ~/.themes/
+   33  lxappearance 
+   34  cd .config/bspwm/
+   35  nano bspwmrc 
+   36  cd ..
+   37  cd sxhkd/
+   38  nano sxhkdrc 
+   39  sudo apt install sxhkd
+   40  cd
+   41  sudo apt update
+   42  sudo apt upgrade
+   43  sudo / find -type f sxhkdrc
+   44  sudo find / -type f -name sxhkdrc
+   45  rm .config/sxhkd/sxhkdrc 
+   46  cp /usr/share/doc/bspwm/examples/sxhkdrc .config/sxhkd/
+   47  cd .config/sxhkd/
+   48  ls
+   49  nano sxhkdrc 
+   50  cd ../bspwm/
+   51  nano bspwmrc 
+   52  nitrogen
+   53  firefox
+   54  sudo apt install firefox
+   55  firefox
+   56  cd
+   57  ll
+   58  mkdir -p Pictures/wallpapers01
+   59  mv ~/Downloads/* Pictures/wallpapers01/
+   60  nitrogen
+   61  mount
+   62  cd /media/rgregor/VBox_GAs_6.1.14/
+   63  ls
+   64  sudo ./VBoxLinuxAdditions.run 
+   65  xfce4-terminal
+   66  nano .xinitrc
+   67  exit
+   68  sudo reboot
+   69  sudo apt remove gdm3
+   70  sudo apt autoremove
+   71  sudo reboot
+   72  xrandr
+   73  xrandr -s 1440x900
+   74  firefox &
+   75  nitrogen
+   76  nano .config/sxhkd/sxhkdrc 
+   77  xfce4-terminal
+   78  nano .config/sxhkd/sxhkdrc 
+   79  which xfce4-terminal
+   80  nano .config/sxhkd/sxhkdrc 
+   81  rofi
+   82  rofi -show run
+   83  nano .config/sxhkd/sxhkdrc 
+   84  cd .config/bspwm/
+   85  ll
+   86  nano bspwmrc 
+   87  startx
+   88  sudo reboot
+   89  xrandr -s 1440x900
+   90  nano .config/sxhkd/sxhkdrc 
+   91  startx
+   92  exit
+   93  nano .config/sxhkd/
+   94  nano .config/sxhkd/sxhkdrc 
+   95  nano .config/bspwm/bspwmrc 
+   96  startx
+   97  sudo reboot
+   98  exit
+   99  history >> ~/Documents/setup01_20201106.txt
+  100  cat ~/Documents/setup01_20201106.txt
+  101  poweroff
+  102  startx
+  103  nitrogen
+  104  ls
+  105  lss
+  106  ls
+  107  cd
+  108  lsl
+  109  ls
+  110  pwd
+  111  cd .config/
+  112  nano bspwm/bspwmrc 
+  113  ls
+  114  ls -l
+  115  ls
+  116  ls -l
+  117  gedit
+  118  xterm
+  119  sudo apt install xterm
+  120  ls -l
+  121  exit
+  122  mount
+  123  cd /mnt/VBox_hared/
+  124  ls /mnt/VBox_hared/
+  125  sudo chown -R rgregor: /mnt/VBox_hared/
+  126  cd /mnt/VBox_hared/
+  127  ls -l /mnt/
+  128  sudo usermod -a -G vboxfs rgregor
+  129  sudo usermod -a -G vboxsf rgregor
+  130  ls /mnt/VBox_hared/
+  131  sudo chmod 777 /mnt/VBox_hared/
+  132  ls /mnt/VBox_hared/
+  133  ls - /mnt/
+  134  ls -l /mnt/
+  135  su root
+  136  ll
+  137  ls
+  138  cd /mnt/
+  139  ls
+  140  ls -l VBox_hared/
+  141  groups
+  142  sudo usermod -a -G vboxsf
+  143  sudo usermod -a -G vboxsf rgregor
+  144  groups
+  145  cd
+  146  xterm
+  147  sudo apt purge xterm 
+  148  rxvt
+  149  sudo apt install rxvt
+  150  rxvt
+  151  sudo reboot
+  152  cd /mnt/VBox_hared/
+  153  groups
+  154  ls -l /mnt/VBox_hared/
+  155  nano /mnt/VBox_hared/bspwm_setup_20201106.txt 
+  156  cat /mnt/VBox_hared/bspwm_setup_20201106.txt 
+  157  history
+  158  history >> /mnt/VBox_hared/bspwm_setup_20201106.txt 
+  159  nano /mnt/VBox_hared/bspwm_setup_20201106.txt
+  160  vim /mnt/VBox_hared/bspwm_setup_20201106.txt
+  161  mkdir ~/seznami
+  162  history >> ~/seznami/history_20201107_1037.txt

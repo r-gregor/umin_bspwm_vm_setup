@@ -1,0 +1,18 @@
+rgregor@uminbspwm 
+----------------- 
+OS: Ubuntu 20.04.1 LTS x86_64 
+Host: VirtualBox 1.2 
+Kernel: 5.4.0-52-generic 
+Uptime: 26 mins 
+Packages: 1195 (dpkg), 4 (snap) 
+Shell: bash 5.0.17 
+Resolution: 1440x900 
+WM: bspwm 
+Theme: Adwaita-dark [GTK2/3] 
+Icons: Adwaita [GTK2/3] 
+Terminal: xfce4-terminal 
+Terminal Font: Monoisome Semi-Condensed 9 
+CPU: Intel i5-2430M (2) @ 2.394GHz 
+GPU: 00:02.0 VMware SVGA II Adapter 
+Memory: 243MiB / 3923MiB 
+
